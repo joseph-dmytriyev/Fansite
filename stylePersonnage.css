@@ -1,0 +1,131 @@
+.barnav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #e77111; 
+    padding: 20px;
+}
+.navbar{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic;
+}
+.navbar:hover {
+    background-color: #e54e1c; 
+}
+
+body {
+    background-color: #001f3f; 
+    color: #ffffff; 
+}
+.satoru{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gojo{
+    height: 300px;
+    width:auto;
+}
+.su{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.kuna{
+    height: 270px;
+    width: auto;
+}
+.yuji{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.yu{
+    height:350px;
+    width: auto;
+    
+}
+h2{
+    text-align: center;
+}
+h1,h2,h3, h4, h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: rgb(199, 5, 5);
+    
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+h1{
+    text-align: center;
+}
+
+
+.barA{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+/* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
+.Rsx:hover .B {
+    display: block; 
+}
+
+/* Style du contenu du menu déroulant */
+.B {
+    display: none; 
+    position: absolute; 
+    background-color: #e77111; 
+    min-width: 160px; 
+}
+    
+/* Style des liens à l'intérieur du menu déroulant */
+.Ac {
+    color: black; 
+    padding: 12px; 
+    text-decoration: none; 
+    display: block; 
+}
+/* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
+.Ac:hover {
+    background-color: #e54e1c;
+}
+
+
+
+
+    
+
+
+
+.perso:hover .Pa {
+    display: block; 
+}
+
+/* Style du contenu du menu déroulant pour les personnages */
+.Pa {
+    display: none; 
+    position: absolute; 
+    background-color: #e77111; 
+    min-width: 130px; 
+}
+
+/* Style des pages à l'intérieur du menu déroulant pour les personnages */
+.P {
+    color: black; 
+    padding:12px; 
+    text-decoration: none; 
+    display: block; 
+}
+
+    
+ .P:hover {
+    background-color: #e54e1c; 
+}

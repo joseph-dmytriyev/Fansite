@@ -1,0 +1,148 @@
+.barnav  {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #e77111; /* Couleur de fond pour visualiser */
+    padding: 20px; 
+}
+.barA{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic
+}
+
+.navbar{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic;
+    
+}
+
+.navbar:hover {
+    background-color: #e54e1c; /* Changement de couleur au survol */
+}
+
+/* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
+.Rsx:hover .B {
+    display: block; 
+}
+
+/* Style du contenu du menu déroulant */
+.B {
+    display: none; 
+    position: absolute; 
+    background-color: #e77111; 
+    min-width: 160px; 
+   
+}
+
+/* Style des liens à l'intérieur du menu déroulant */
+.B .Ac {
+    color: black; 
+    padding: 12px; 
+    text-decoration: none; 
+    display: block; 
+}
+
+
+.B .Ac:hover {
+    background-color: #e54e1c; 
+}
+
+
+
+
+
+/* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
+.perso:hover .Pa {
+    display: block; 
+}
+
+/* Style du contenu du menu déroulant pour les personnages */
+.Pa {
+    display: none; 
+    position: absolute; 
+    background-color: #e17f16; 
+    min-width: 160px; 
+}
+
+/* Style des pages à l'intérieur du menu déroulant pour les personnages */
+.Pa .P {
+    color: black; 
+    padding: 12px; 
+    text-decoration: none;
+    display: block; 
+}
+
+    
+.Pa .P:hover {
+    background-color: #e54e1c; 
+}
+
+body {
+    background-color: #001f3f; 
+    color: #ffffff; 
+}
+
+/* Style pour le conteneur du formulaire de contact */
+.contact {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #a73333; 
+    border-radius: 8px; 
+    
+}
+.contact{
+    margin-top: 15px;
+}
+
+
+h2 {
+    text-align: center; 
+    color: #ffffff; 
+}
+
+/* Style pour les sections du formulaire */
+.formulaire div {
+    margin-bottom: 15px; 
+}
+
+/* Style pour les labels */
+label {
+    display: block; 
+    margin-bottom: 5px; 
+    color: #ffffff;
+}
+
+/* Style pour les champs de texte et les menus déroulants */
+input[type="text"],
+select {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+
+
+
+input[type="button"] {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #f91900; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    text-align: center; 
+}
+
+
+input[type="button"]:hover {
+    background-color: #cf563e; 
+}
+

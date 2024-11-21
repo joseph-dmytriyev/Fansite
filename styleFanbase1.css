@@ -1,0 +1,119 @@
+.barnav  {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e77111; 
+    padding: 20px; 
+}
+.barA{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+
+.navbar{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic;
+    
+}
+
+.navbar:hover {
+    background-color: #e54e1c; 
+}
+.conteneur {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 75vh; 
+}
+
+.j {
+    height: 500px; 
+   width: auto;
+}
+body {
+    background-color: #001f3f; 
+    color: #ffffff; 
+    
+}
+h2{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 30px
+}
+p{
+    font-family:"Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+    font-size: 20px;
+    font-style: italic;
+    
+    
+}
+
+
+
+/* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
+.Rsx:hover .B {
+    display: block; 
+}
+
+/* Style du contenu du menu déroulant */
+.B {
+    display: none; 
+    position: absolute; 
+    background-color: #e77111; 
+    min-width: 160px; 
+   
+}
+
+/* Style des liens à l'intérieur du menu déroulant */
+.Ac {
+    color: black; 
+    padding: 12px; 
+    text-decoration: none; 
+    display: block; 
+}
+
+
+.Ac:hover {
+    background-color: #e54e1c; 
+}
+
+
+.perso:hover .Pa {
+    display: block; 
+}
+
+/* Style du contenu du menu déroulant pour les personnages */
+.Pa {
+    display: none; 
+    position: absolute; 
+    background-color: #e17f16; 
+    min-width: 160px; 
+}
+
+/* Style des pages à l'intérieur du menu déroulant pour les personnages */
+.P {
+    color: black; 
+    padding: 12px; 
+    text-decoration: none;
+    display: block; 
+}
+
+    
+ .P:hover {
+    background-color: #e54e1c; 
+}
+
+
+.Op{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

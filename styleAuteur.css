@@ -1,0 +1,111 @@
+.barnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #e77111; 
+    padding: 20px;
+}
+.navbar{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic;
+}
+.navbar:hover {
+    background-color: #e54e1c; /* Changement de couleur au survol */
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #001f3f; /* Bleu nuit */
+    color: #ffffff; /* Texte blanc pour un bon contraste */
+}
+.Gege {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Akutami {
+    height: 400px;
+    width: auto;
+}
+p{
+    font-family:"Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+    font-size: 17px;
+    font-style: italic;
+
+} 
+
+
+
+    
+
+
+
+
+.Rsx:hover .B {
+    display: block; 
+}
+
+/* Style du contenu du menu déroulant */
+.B {
+    display: none; 
+    position: absolute; 
+    background-color: #e77111; 
+    min-width: 160px; 
+
+}
+
+/* Style des liens à l'intérieur du menu déroulant */
+.Ac {
+    color: black; 
+    padding: 12px; 
+    text-decoration: none; 
+    display: block; 
+}
+
+/* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
+.Ac:hover {
+    background-color: #e54e1c;
+}
+
+
+
+
+
+/* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
+.perso:hover .Pa {
+    display: block; 
+}
+
+/* Style du contenu du menu déroulant pour les personnages */
+.Pa {
+    display: none; 
+    position: absolute; 
+    background-color: #e17f16; 
+    min-width: 130px; 
+}
+
+/* Style des liens à l'intérieur du menu déroulant pour les personnages */
+.P {
+    color: black; 
+    padding:12px; 
+    text-decoration: none; 
+    display: block; 
+}
+
+    /* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
+.P:hover {
+    background-color: #e54e1c; 
+}
+
+.barA{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}

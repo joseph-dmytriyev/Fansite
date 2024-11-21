@@ -1,0 +1,112 @@
+body {
+    background-color: #001f3f; /* Bleu nuit */
+    color: #ffffff; /* Texte blanc pour un bon contraste */
+}
+    
+
+    
+    
+    
+    .Rsx:hover .B {
+        display: block; /* Affiche le menu déroulant */
+    }
+    
+    /* Style du contenu du menu déroulant */
+    .B {
+        display: none; 
+        position: absolute; 
+        background-color: #e77111; 
+        min-width: 160px; 
+    }
+        
+        
+    
+    /* Style des liens à l'intérieur du menu déroulant */
+    .Ac {
+        color: black;
+        padding: 12px 16px; 
+        text-decoration: none; 
+        display: block; 
+    }
+    
+    /* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
+     .Ac:hover {
+        background-color: #e54e1c; 
+    }
+    
+    
+    
+    
+    
+    /* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
+    .perso:hover .Pa {
+        display: block; 
+    }
+    
+    /* Style du contenu du menu déroulant pour les personnages */
+    .Pa {
+        display: none; 
+        position: absolute; 
+        background-color: #e77111; 
+        min-width: 130px; 
+    }
+    
+    /* Style des liens à l'intérieur du menu déroulant pour les personnages */
+    .P {
+        color: black; 
+        padding:12px; 
+        text-decoration: none; 
+        display: block; 
+    }
+    
+        /* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
+    .P:hover {
+        background-color: #e54e1c; 
+    }
+    
+    
+    .barnav {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center; 
+        background-color: #e77111; 
+        padding: 20px;
+    }
+    .navbar{
+        color: black;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-style: italic;
+    }
+
+    .barA{
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+    }
+
+
+    .ph{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 20px;
+        gap: 10px;
+    }
+
+.phh{
+    height:275px;
+    width:auto;
+}
+
+.V{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.YC{
+    display:flex;
+    justify-content: center;
+    margin: 15px;
+}
